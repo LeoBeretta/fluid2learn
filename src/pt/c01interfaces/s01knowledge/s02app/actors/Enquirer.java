@@ -25,7 +25,7 @@ public class Enquirer implements IEnquirer
 		
         String[] listaAnimais;
 		
-        HashMap<String, String> perguntasRepetidas = new HashMap<String, String>();
+        Hashtable<String, String> perguntasRepetidas = new Hashtable<String, String>();
                 
         int animal;
         
